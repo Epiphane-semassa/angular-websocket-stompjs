@@ -34,7 +34,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/process/browser.js",
+              "node_modules/buffer/index.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
